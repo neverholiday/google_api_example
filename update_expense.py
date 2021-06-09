@@ -46,20 +46,5 @@ def main():
 
 	print( sheet )
 
-	# dailyIncomeDict = sheet.values().get( spreadsheetId=DailyIncomeExpense,
-	# 							range='Sheet1!A2:B20',
-	# 							majorDimension=MajorDimensionName ).execute()
-	
-	# valueIncomeList = dailyIncomeDict.get( 'values' )
-
-	# #	Get monthly first
-	# monthlyIncomeDict = sheet.values().get( spreadsheetId=MonthlyIncomeExpense,
-	# 							range='Sheet1!A1:C160',
-	# 							majorDimension=MajorDimensionName ).execute()
-
-	# print( monthlyIncomeDict.get( 'values' ) )
-
-	# modifyValueList = monthlyIncomeDict.get( 'values' )
-
 if __name__ == '__main__':
 	main()
